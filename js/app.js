@@ -99,8 +99,8 @@ function pegardadosvideo(url){
 	$.ajax({
 		
 		method: "GET",
-		url: "http://devappsgp.zya.me/ytdown/controller/vtdown.php?url=" + url,
-		//url: "controller/vtdown.php?url=" + url,
+		//url: "http://devappsgp.zya.me/ytdown/controller/vtdown.php?url=" + url,
+		url: "controller/vtdown.php?url=" + url,
 		//url: "http://192.168.0.103/estudos/ytdown/controller/vtdown.php?url=" + url,
 		accept: "Application/json",
 		async: false,
