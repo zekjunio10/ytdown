@@ -1,8 +1,45 @@
-#buscador-pai{
-		max-width: 450px;
-		margin: 0 auto;
+body{
+	background-color: black;
 }
 
+#logopai{
+	margin-top: 30px;
+	color: darkred;
+	text-align: center;
+}
+
+#buscador-pai{
+		max-width: 450px;
+		margin: 50px auto;
+		text-align: center;
+		
+}
+
+#inputbuscador{
+	border-radius:3px;
+	border: 1px solid red;
+}
+
+#inputbuscadorlabel{
+	color: white;
+	font-size: larger;
+}
+
+#btbuscar{
+	background-color: darkred;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+	border: 2px solid gray;
+}
+
+#btcolar{
+	background-color: darkred;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+	border: 2px solid gray;
+}
 #root-elemento-result{
 	display: flex;
 	flex-wrap: wrap;
@@ -14,6 +51,7 @@
 
 #msg{
 	margin: 0 auto;
+	color: white;
 }
 
 #comaudioevideo{
