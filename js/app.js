@@ -93,7 +93,7 @@ function pegardadosvideo(url){
 	
 	 
 	let dados;
-	let site = "/ytdown/api/vtdown.php"+url;
+	let site = "/ytdown/api/vtdown.php?url="+url;
 
 	$.ajax({
 
