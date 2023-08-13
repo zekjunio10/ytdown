@@ -103,7 +103,7 @@ function pegardadosvideo(url){
 		method: "GET",
 	//	url: "https://radiant-rugelach-646559.netlify.app/ytdl/info?video_url=" + url,
 		//url: "http://devappsgp.zya.me/ytdown/controller/vtdown.php?url=" + url,
-		url: site+"/ytdown/api/vtdown.php?url=" + url,
+		url: site + "/ytdown/api/vtdown.php";
 		//url: "http://192.168.0.103/estudos/ytdown/controller/vtdown.php?url=" + url,
 		accept: "Application/json",
 		async: false,
